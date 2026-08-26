@@ -1,0 +1,37 @@
+# Python and dependency environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+node_modules/
+
+# Local runtime state
+*.sqlite3
+*.sqlite
+*.db
+*.db-shm
+*.db-wal
+*.log
+*_resume.json
+*_state.json
+runtime/
+browser-profile/
+browser_profile*/
+
+# Generated downloads and build output
+*.cbz
+*.mp4
+*.mkv
+*.avi
+*.mov
+*.wmv
+*.flv
+*.webm
+*.exe
+build/
+dist/
+# Collection records, photos, exports, and browser profiles are local data.
+modules/data/
+module/data/
+modules/images/
+module/images/
