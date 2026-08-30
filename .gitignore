@@ -35,3 +35,7 @@ modules/data/
 module/data/
 modules/images/
 module/images/
+
+# The NAS catalog is machine-local runtime data; retain only its empty folder marker.
+LOCAL_database/*
+!LOCAL_database/.gitkeep
